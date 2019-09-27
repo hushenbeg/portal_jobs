@@ -1,0 +1,106 @@
+body{
+    background: url(https://images.unsplash.com/photo-1499946981954-e7f4b234d7fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+    color:white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+img{
+    border:2px solid yellow;
+    width: 250px;
+    height:150px;
+    margin-top:200px;
+}
+hr.new4 {
+    border: 1px solid red;
+}
+/*  */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size:15px;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 16px;
+  }
+  tr:nth-child(odd) {
+    background-color: limegreen;
+  }
+  
+  tr:nth-child(even) {
+    background-color: lightseagreen;
+  }
+/*  */
+/* table{
+    background:lightseagreen;
+    color:white;
+    width: 100%;
+    height:150%;
+    font-size: 20px;
+} */
+
+th{
+    text-align: center;
+    color:lightcoral;
+    background: lightblue;
+    font-size: 21px;
+} 
+
+.navbar {
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
+}
+
+.p{
+    color:red;
+}
+
+.jumbotron{
+    margin-left: 90px;
+    margin-right: 50px;
+    margin-top:90px;
+    background:purple;
+    color: white;
+    text-align: center;
+    border:2px solid blue;
+}
+h2{
+    background: green;
+    color:white;
+}
+.a{
+    background:ghostwhite;
+    color:white;
+}
+.h3{
+    /* background:red; */
+    color:green;
+}
+
+.card{
+    size: 100px;
+    color:white;
+}
+.footer {
+    position: fixed;
+    font-size: 20px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #555;
+    color: white;
+    text-align: center;
+    border: 1px solid yellow;
+    font-family: Sans-Serif;
+    font-style: bold;
+  }
